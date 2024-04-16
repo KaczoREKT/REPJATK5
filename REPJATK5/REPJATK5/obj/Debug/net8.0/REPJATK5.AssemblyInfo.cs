@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REPJATK5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd6f1e313c1982bc36640e0313409f11f368c29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93e7a81b8d3b97ff19f57319d288484f76412356")]
 [assembly: System.Reflection.AssemblyProductAttribute("REPJATK5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REPJATK5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
