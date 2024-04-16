@@ -1,0 +1,6 @@
+@REPJATK5_HostAddress = http://localhost:5070
+
+GET {{REPJATK5_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
