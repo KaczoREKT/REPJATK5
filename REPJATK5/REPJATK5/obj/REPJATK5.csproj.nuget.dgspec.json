@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s28876\\Documents\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj": {}
+    "F:\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s28876\\Documents\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj": {
+    "F:\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s28876\\Documents\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj",
+        "projectUniqueName": "F:\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj",
         "projectName": "REPJATK5",
-        "projectPath": "C:\\Users\\s28876\\Documents\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj",
-        "packagesPath": "C:\\Users\\s28876\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s28876\\Documents\\REPJATK5\\REPJATK5\\REPJATK5\\obj\\",
+        "projectPath": "F:\\REPJATK5\\REPJATK5\\REPJATK5\\REPJATK5.csproj",
+        "packagesPath": "C:\\Users\\Kollataja\\.nuget\\packages\\",
+        "outputPath": "F:\\REPJATK5\\REPJATK5\\REPJATK5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s28876\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kollataja\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Kollataja\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
