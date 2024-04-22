@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Xml;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using REPJATK5.Models;
 using REPJATK5.Models.DTOs;
@@ -39,19 +40,23 @@ public class AnimalController : ControllerBase
 
 
             // Wykonanie Commanda
-
-
             var reader = command.ExecuteReader();
             List<Animal> animals = new List<Animal>();
 
             int idAnimalOrdinal = reader.GetOrdinal("IdAnimal");
             int nameOrdinal = reader.GetOrdinal("Name");
+            int descriptionOrdinal = reader.GetOrdinal("Description");
+            int categoryOrdinal = reader.GetOrdinal("Category");
+            int areaOrdinal = reader.GetOrdinal("Area");
             while (reader.Read())
             {
                 animals.Add(new Animal()
                 {
                     IdAnimal = reader.GetInt32(idAnimalOrdinal),
-                    Name = reader.GetString(nameOrdinal)
+                    Name = reader.GetString(nameOrdinal),
+                    Description = reader.GetString(descriptionOrdinal),
+                    Category = reader.GetString(categoryOrdinal),
+                    Area = reader.GetString(areaOrdinal)
                 });
             }
 
